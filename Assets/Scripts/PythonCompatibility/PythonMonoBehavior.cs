@@ -15,6 +15,9 @@ public class PythonMonoBehavior : MonoBehaviour
 
     protected virtual void Awake()
     {
+        Runtime.PythonDLL = Application.dataPath + "/StreamingAssets/embedded-python/python39.dll";
+        PythonEngine.PythonHome = Application.dataPath + "/StreamingAssets/embedded-python";
+        PythonEngine.Initialize(mode: ShutdownMode.Reload);
         using (Py.GIL())
         {
             try
