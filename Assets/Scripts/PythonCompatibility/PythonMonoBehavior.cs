@@ -15,9 +15,6 @@ public class PythonMonoBehavior : MonoBehaviour
 
     protected virtual void Awake()
     {
-        Runtime.PythonDLL = Application.dataPath + "/StreamingAssets/embedded-python/python39.dll";
-        PythonEngine.PythonHome = Application.dataPath + "/StreamingAssets/embedded-python";
-        PythonEngine.Initialize(mode: ShutdownMode.Reload);
         using (Py.GIL())
         {
             try
@@ -28,20 +25,6 @@ public class PythonMonoBehavior : MonoBehaviour
             {
                 Debug.LogError("Python module has not been catched! Did you place it at the proper place and/or did Unity properly (re)import it? \n" + e);
             }
-        }
-    }
-
-    protected virtual void OnDestroy()
-    {
-        PythonEngine.Shutdown(ShutdownMode.Reload);
-    }
-
-    protected virtual void OnApplicationQuit()
-    {
-        if (PythonEngine.IsInitialized)
-        {
-            print("ending python");
-            PythonEngine.Shutdown(ShutdownMode.Reload);
         }
     }
     
