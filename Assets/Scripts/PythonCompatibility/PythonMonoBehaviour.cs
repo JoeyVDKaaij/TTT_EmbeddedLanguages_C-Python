@@ -1,9 +1,10 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using Python.Runtime;
 using System;
 
+/// <summary>
+/// This MonoBehavior script 
+/// </summary>
 public class PythonMonoBehavior : MonoBehaviour
 {
     [Header("Python Settings")]
