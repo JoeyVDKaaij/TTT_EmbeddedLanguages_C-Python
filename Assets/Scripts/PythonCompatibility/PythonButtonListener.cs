@@ -1,10 +1,11 @@
-using System.Web;
 using UnityEngine;
 using UnityEngine.UI;
-using Python.Runtime;
 
+/// <summary>
+/// A small script that invokes Python methods since that is not build in the Button component.
+/// </summary>
 [RequireComponent(typeof(Button))]
-public class PythonButtonListener : PythonMonoBehavior
+public class PythonButtonListener : PythonMonoBehaviour
 {
     [SerializeField, Tooltip("Set the name of the Python method that gets called when the button gets pressed.")]
     private string[] MethodNames;

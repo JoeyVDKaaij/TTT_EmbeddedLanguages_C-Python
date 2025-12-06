@@ -3,9 +3,11 @@ using Python.Runtime;
 using System;
 
 /// <summary>
-/// This MonoBehavior script 
+/// This MonoBehaviour base class script handles the connection between GameObjects and Python scripts.
+/// Allowing for some more interesting MonoBehaviour scripts that is normally not possible.
+/// This is what we will be using for test scripts.
 /// </summary>
-public class PythonMonoBehavior : MonoBehaviour
+public class PythonMonoBehaviour : MonoBehaviour
 {
     [Header("Python Settings")]
     [SerializeField, Tooltip("Set the module name.")]

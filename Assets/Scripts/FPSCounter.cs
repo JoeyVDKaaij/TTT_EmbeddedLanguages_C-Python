@@ -1,7 +1,9 @@
-using System;
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// This scripts updates the text component allowing for constant visual feedback on the current FPS.
+/// </summary>
 [RequireComponent(typeof(TMP_Text))]
 public class FPSCounter : MonoBehaviour
 {

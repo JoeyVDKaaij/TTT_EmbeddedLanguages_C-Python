@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 
-
 /// <summary>
 /// Quick script that sets the Input field number to the correct value if it goes too low.
 /// Not sure why this wasn't build in already...

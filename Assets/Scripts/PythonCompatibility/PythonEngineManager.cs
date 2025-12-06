@@ -1,7 +1,9 @@
-using System;
 using UnityEngine;
 using Python.Runtime;
 
+/// <summary>
+/// This singleton script handles the Python Engine and connecting the python scripts with Unity.
+/// </summary>
 public class PythonEngineManager : MonoBehaviour
 {
     public static PythonEngineManager instance;
