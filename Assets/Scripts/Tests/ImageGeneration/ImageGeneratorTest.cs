@@ -28,10 +28,13 @@ public class ImageGeneratorTest : PythonMonoBehaviour
     {
         if (CheckAnyInvalidInputFields()) return;
         
+        int kernel = int.Parse(_kernelInputField.text);
+        // Kernel cannot be an even number.
+        if (kernel % 2 == 0) return;
+        
         int seed = int.Parse(_seedInputField.text);
         int width = int.Parse(_widthInputField.text);
         int height = int.Parse(_heightInputField.text);
-        int kernel = int.Parse(_kernelInputField.text);
         int iterations = int.Parse(_iterationsInputField.text);
 
         DataLogger.TestRecord record = DataLogger.GetTestRecordTemplate("Image Generator", "Python");
