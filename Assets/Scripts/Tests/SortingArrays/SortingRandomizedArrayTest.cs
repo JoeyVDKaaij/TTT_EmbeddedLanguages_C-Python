@@ -35,7 +35,6 @@ public class SortingRandomizedArrayTest : PythonMonoBehaviour
         PyObject pyObject = pythonMethod(arraySize, seed);
         List<float> array = pyObject.As<float[]>().ToList();
         
-        pythonMethod = FetchMethod("SortArrayTest");
         
         if (pTestInPython)
         {
@@ -45,6 +44,7 @@ public class SortingRandomizedArrayTest : PythonMonoBehaviour
             record.header = "language,arraySize,seed,executionTimeMs,pDateOfTesting,timeOfTesting\n";
             
             var sw = Stopwatch.StartNew();
+            pythonMethod = FetchMethod("SortArrayTest");
             pyObject = pythonMethod(pyObject);
             sw.Stop();
             
