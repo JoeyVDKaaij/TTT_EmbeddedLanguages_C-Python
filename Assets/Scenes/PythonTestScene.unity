@@ -1991,7 +1991,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 0
 --- !u!114 &387122462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2922,7 +2924,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 0
 --- !u!114 &571228757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5939,7 +5943,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 0
 --- !u!114 &995084420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7748,7 +7754,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 0
 --- !u!114 &1287826237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8502,7 +8510,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 1
 --- !u!114 &1497093675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9202,7 +9212,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 0
 --- !u!114 &1623108889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10105,7 +10117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 0
 --- !u!114 &1862716340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10955,7 +10969,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4f85cbc09ba3d40a006c7ba7f4dedd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  checkMinimum: 1
   minimumNumber: 1
+  checkOdd: 0
 --- !u!1 &2118828454
 GameObject:
   m_ObjectHideFlags: 0
